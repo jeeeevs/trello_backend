@@ -16,6 +16,7 @@
 * Edit `.env` file with mongo DB details (It will already be filled and working, change if required)
 * `npm i`
 * `npm run dev` or `npm start`
+* Site will be available `http://localhost:3000`
 
 ### Test the app
 * `npm test`
