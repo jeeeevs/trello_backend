@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require('dotenv').config();
+const debug = require("debug")("trello-backend:server");
+const app = require("../app");
+
+const port = parseInt(process.env.SERVER_PORT) || 4000;
+app.listen(port, () => {
+  debug(`App listening at http://localhost:${port}`);
+});
